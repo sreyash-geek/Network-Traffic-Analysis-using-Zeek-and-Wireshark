@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2024-03-27-18-04-18
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1711542278.176454	CuDiZx127dD55iJ7Ph,CBrwLBfw1PQ5iYfM7	192.168.29.206	192.168.29.1	2c:3b:70:58:24:1b	sreyash-mohanty-1-0	-	-	192.168.29.206	192.168.29.206	43200.000000	-	-	REQUEST,ACK	0.005007
+1711542578.624669	CGbtbT235aQGDUthOj,CMJl7mCM6p0r98m41	192.168.29.206	192.168.29.1	2c:3b:70:58:24:1b	sreyash-mohanty-1-0	-	-	192.168.29.206	192.168.29.206	43200.000000	-	-	REQUEST,ACK	0.105312
+#close	2024-03-27-18-04-18

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntp
+#open	2024-03-27-18-04-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	mode	stratum	poll	precision	root_delay	root_disp	ref_id	ref_time	org_time	rec_time	xmt_time	num_exts
+#types	time	string	addr	port	addr	port	count	count	count	interval	interval	interval	interval	string	time	time	time	time	count
+1711542376.005222	C6sbPdvMrZkdZPof1	2405:201:c004:5066:e55d:8d74:942c:c5c4	47651	2620:2d:4000:1::40	123	4	3	0	1.000000	1.000000	0.000000	0.000000	\x00\x00\x00\x00	0.000000	0.000000	0.000000	1711542376.001199	0
+1711542376.289937	C6sbPdvMrZkdZPof1	2405:201:c004:5066:e55d:8d74:942c:c5c4	47651	2620:2d:4000:1::40	123	4	4	2	1.000000	0.000000	0.001190	0.000504	201.68.88.106	1711542055.409928	1711542376.001199	1711542376.146746	1711542376.146754	0
+#close	2024-03-27-18-04-18

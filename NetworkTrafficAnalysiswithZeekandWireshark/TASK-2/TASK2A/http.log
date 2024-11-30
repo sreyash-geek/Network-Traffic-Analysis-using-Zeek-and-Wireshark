@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2024-03-27-18-04-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1711542279.425257	COo15v1inO5Vk9dszh	192.168.29.206	36672	185.125.190.48	80	1	GET	connectivity-check.ubuntu.com.	/	-	1.1	-	-	0	0	204	No Content	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1711542279.475614	CeMtZ61T6IVo4p7gZj	2405:201:c004:5066:e55d:8d74:942c:c5c4	45516	2001:67c:1562::24	80	1	GET	connectivity-check.ubuntu.com.	/	-	1.1	-	-	0	0	204	No Content	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1711542579.803934	C6OVJtnHhq3DC7Oh7	192.168.29.206	58146	91.189.91.49	80	1	GET	connectivity-check.ubuntu.com.	/	-	1.1	-	-	0	0	204	No Content	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1711542579.870635	Czh3TVN4GstluUD39	2405:201:c004:5066:e55d:8d74:942c:c5c4	59024	2001:67c:1562::23	80	1	GET	connectivity-check.ubuntu.com.	/	-	1.1	-	-	0	0	204	No Content	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2024-03-27-18-04-18

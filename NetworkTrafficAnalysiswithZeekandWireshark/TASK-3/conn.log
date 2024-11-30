@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2024-03-30-00-02-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1711736756.898562	CLPXf9PBVCkXpbRX7	2402:e280:3e3a:777:d8be:923:f855:cae8	34262	64:ff9b::689a:5969	443	tcp	-	-	-	-	S0	F	F	0	S	1	80	0	0	-
+1711736757.149206	CVZ1pC4lLrHIntGiB3	2402:e280:3e3a:777:d8be:923:f855:cae8	34266	64:ff9b::689a:5969	443	tcp	-	-	-	-	S0	F	F	0	S	1	80	0	0	-
+1711736757.674860	CsSvRS1jwkPfyl5NEb	2402:e280:3e3a:777:d8be:923:f855:cae8	34278	64:ff9b::689a:5969	443	tcp	-	-	-	-	S0	F	F	0	S	1	80	0	0	-
+1711736757.973059	CrsEHc1mch8xNiSUM2	2402:e280:3e3a:777:d8be:923:f855:cae8	34286	64:ff9b::689a:5969	443	tcp	-	-	-	-	S0	F	F	0	S	1	80	0	0	-
+1711736758.273534	CD8GxG3UyPkjS6lGWg	192.168.1.17	39764	104.154.89.105	443	tcp	ssl	1.071955	643	1614	S1	T	F	0	ShADad	6	963	4	1830	-
+1711736757.975444	ChbdQZ1D872I2BQjy8	192.168.1.17	39760	104.154.89.105	443	tcp	ssl	1.522337	1900	4056	S1	T	F	0	ShADadt	10	2440	7	4835	-
+1711736757.449583	Csrdt81FNvOcvcKWqh	192.168.1.17	39748	104.154.89.105	443	tcp	ssl	0.758055	613	1340	SF	T	F	0	ShADadFf	7	985	4	1556	-
+1711736757.199767	CV1zcR22jtFSVTwzn7	192.168.1.17	39744	104.154.89.105	443	tcp	ssl	0.771801	613	1340	SF	T	F	0	ShADadFf	7	985	5	1608	-
+#close	2024-03-30-00-02-17

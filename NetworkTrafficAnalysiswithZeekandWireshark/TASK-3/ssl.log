@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-03-30-00-02-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1711736758.216629	ChbdQZ1D872I2BQjy8	192.168.1.17	39760	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711736758.507742	CD8GxG3UyPkjS6lGWg	192.168.1.17	39764	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711736757.681711	Csrdt81FNvOcvcKWqh	192.168.1.17	39748	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	certificate_unknown	http/1.1	F	CsxknL	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711736757.436319	CV1zcR22jtFSVTwzn7	192.168.1.17	39744	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	certificate_unknown	http/1.1	F	CsxknL	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+#close	2024-03-30-00-02-17
